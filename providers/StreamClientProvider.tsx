@@ -4,10 +4,8 @@ import { tokenProvider } from "@/actions/stream.actions";
 import Loader from "@/components/Loader";
 import { useUser } from "@clerk/nextjs";
 import {
-  StreamCall,
   StreamVideo,
   StreamVideoClient,
-  User,
 } from "@stream-io/video-react-sdk";
 import { ReactNode, useEffect, useState } from "react";
 
